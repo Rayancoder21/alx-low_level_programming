@@ -16,13 +16,19 @@ void times_table(void)
 		{
 			int x = i * j;
 
+			if (j == 0)
+			{
+				printf("%d", x);
+				putchar(',');
+				putchar(' ');
+			}
 			if (j == 9)
-			printf("%2d", x);
+				printf("%2d", x);
 			else
 			{
-			printf("%2d", x);
-			putchar(',');
-			putchar(' ');
+				printf("%2d", x);
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	printf("\n");
