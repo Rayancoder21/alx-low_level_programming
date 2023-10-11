@@ -17,20 +17,12 @@ void times_table(void)
 			int x = i * j;
 
 			if (j == 0)
-			{
-				printf("%d", x);
-				putchar(',');
-				putchar(' ');
-			}
-			if (j == 9)
-				printf("%2d", x);
+				printf("%d, ", x);
 			else
-			{
 				printf("%2d", x);
-				putchar(',');
-				putchar(' ');
+			if (j != 9 && j != 0)
+				printf(", ");
 			}
-		}
 	printf("\n");
 	}
 }
