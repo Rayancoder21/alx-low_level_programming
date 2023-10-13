@@ -29,7 +29,10 @@ int main(void)
 		{
 			printf(" ");
 		}
+		else
+		{
+			printf("\n");
+		}
 	}
-	printf("\n");
 	return (0);
 }
