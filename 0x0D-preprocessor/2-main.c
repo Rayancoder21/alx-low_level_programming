@@ -2,7 +2,7 @@
 
 /**
  * ain- prints the name of the file
- * ain - function
+ *
  * Return: Always 0 (Success)
  */
 int ain(void)
